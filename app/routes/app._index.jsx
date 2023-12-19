@@ -105,13 +105,41 @@ export default function Index() {
       <BlockStack gap="500">
         <Layout>
           <Layout.Section>
+            <InlineGrid gap="400" columns={2}>
+              <Text as="h1" variant="heading2xl" alignment="start">
+                            Rayspeed Asia
+              </Text>
+              <Text as="h3" variant="headingLg" alignment="end" fontWeight="regular">
+        <Link url="https://rayspeed.com/" removeUnderline="true" monochrome="true" target="_blank">About us</Link>
+      </Text>
+            </InlineGrid>
+          </Layout.Section>
+        </Layout>
+        <Layout>
+          <Layout.Section variant="oneThird">
+            <BlockStack gap="500">
+                <BlockStack gap="200">
+                  <Text as="h2" variant="headingMd">
+                    Kelola Rayspeed
+                  </Text>
+                  <BlockStack gap="200">
+                    <InlineStack align="space-between">
+                      <Text as="span" variant="bodyMd">
+                        Aktifkan dan kelola rayspeed untuk checkout di toko Anda
+                      </Text>
+                    </InlineStack>
+                  </BlockStack>
+                </BlockStack>
+            </BlockStack>
+          </Layout.Section>
+          <Layout.Section>
             <Card>
               <InlineStack blockAlign="center" >
                 <InlineGrid gap="400" columns={2} >
                   <InlineStack gap="400" blockAlign="center">
                     {/* Thumbnail Placeholder */}
                     <Thumbnail
-                      source="https://placehold.it/50"
+                      source="/images/rayspeed_logo.png"
                       alt="Rayspeed Logo"
                       size="medium"
                       label="Center"
@@ -144,108 +172,6 @@ export default function Index() {
                 
               </InlineStack>
             </Card>
-          </Layout.Section>
-          <Layout.Section variant="oneThird">
-            <BlockStack gap="500">
-              <Card>
-                <BlockStack gap="200">
-                  <Text as="h2" variant="headingMd">
-                    App template specs
-                  </Text>
-                  <BlockStack gap="200">
-                    <InlineStack align="space-between">
-                      <Text as="span" variant="bodyMd">
-                        Framework
-                      </Text>
-                      <Link
-                        url="https://remix.run"
-                        target="_blank"
-                        removeUnderline
-                      >
-                        Remix
-                      </Link>
-                    </InlineStack>
-                    <InlineStack align="space-between">
-                      <Text as="span" variant="bodyMd">
-                        Database
-                      </Text>
-                      <Link
-                        url="https://www.prisma.io/"
-                        target="_blank"
-                        removeUnderline
-                      >
-                        Prisma
-                      </Link>
-                    </InlineStack>
-                    <InlineStack align="space-between">
-                      <Text as="span" variant="bodyMd">
-                        Interface
-                      </Text>
-                      <span>
-                        <Link
-                          url="https://polaris.shopify.com"
-                          target="_blank"
-                          removeUnderline
-                        >
-                          Polaris
-                        </Link>
-                        {", "}
-                        <Link
-                          url="https://shopify.dev/docs/apps/tools/app-bridge"
-                          target="_blank"
-                          removeUnderline
-                        >
-                          App Bridge
-                        </Link>
-                      </span>
-                    </InlineStack>
-                    <InlineStack align="space-between">
-                      <Text as="span" variant="bodyMd">
-                        API
-                      </Text>
-                      <Link
-                        url="https://shopify.dev/docs/api/admin-graphql"
-                        target="_blank"
-                        removeUnderline
-                      >
-                        GraphQL API
-                      </Link>
-                    </InlineStack>
-                  </BlockStack>
-                </BlockStack>
-              </Card>
-              <Card>
-                <BlockStack gap="200">
-                  <Text as="h2" variant="headingMd">
-                    Next steps
-                  </Text>
-                  <List>
-                    <List.Item>
-                      Build an{" "}
-                      <Link
-                        url="https://shopify.dev/docs/apps/getting-started/build-app-example"
-                        target="_blank"
-                        removeUnderline
-                      >
-                        {" "}
-                        example app
-                      </Link>{" "}
-                      to get started
-                    </List.Item>
-                    <List.Item>
-                      Explore Shopify’s API with{" "}
-                      <Link
-                        url="https://shopify.dev/docs/apps/tools/graphiql-admin-api"
-                        target="_blank"
-                        removeUnderline
-                      >
-                        GraphiQL
-                      </Link>
-                    </List.Item>
-                  </List>
-                </BlockStack>
-              </Card>
-            </BlockStack>
           </Layout.Section>
         </Layout>
       </BlockStack>

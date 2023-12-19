@@ -2,18 +2,18 @@
 
 name = "rayspeed-asia"
 client_id = "8bc2a9f35b9fcdcd0a22395ab1a9a5e3"
-application_url = "https://hrs-consists-leslie-rays.trycloudflare.com"
+application_url = "https://rosa-personals-collectables-ensemble.trycloudflare.com"
 embedded = true
 
 [access_scopes]
 # Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
-scopes = "write_products, read_product_listings, write_shipping, read_shipping"
+scopes = "write_shipping, read_shipping"
 
 [auth]
 redirect_urls = [
-  "https://hrs-consists-leslie-rays.trycloudflare.com/auth/callback",
-  "https://hrs-consists-leslie-rays.trycloudflare.com/auth/shopify/callback",
-  "https://hrs-consists-leslie-rays.trycloudflare.com/api/auth/callback"
+  "https://rosa-personals-collectables-ensemble.trycloudflare.com/auth/callback",
+  "https://rosa-personals-collectables-ensemble.trycloudflare.com/auth/shopify/callback",
+  "https://rosa-personals-collectables-ensemble.trycloudflare.com/api/auth/callback"
 ]
 
 [webhooks]
