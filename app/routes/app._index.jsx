@@ -1,12 +1,10 @@
 import { useEffect, useState } from "react";
-import { json } from "@remix-run/node";
 import { useSubmit, useLoaderData } from "@remix-run/react";
 import {
   Page,
   Layout,
   BlockStack,
 } from "@shopify/polaris";
-import { authenticate } from "../shopify.server";
 import Header from '../components/Header'
 import ManageCarrier from "../components/ManageCarrier";
 import { retrieveCarrierServices, actionToggle } from "../api/carrierService";
@@ -25,7 +23,6 @@ const checkRayspeedExistence = (carrierServices) => {
 
 export default function Index() {
   const carrierServices = useLoaderData();
-  console.log("carrier service not in effect",carrierServices)
   const [isRayspeedExist, setIsRayspeedExist] = useState(checkRayspeedExistence(carrierServices));
   const [isLoading, setIsLoading] = useState(false);
   useEffect(() => {
@@ -40,7 +37,7 @@ export default function Index() {
 
   const handleToggleRayspeed = async () => {
     setIsLoading(true);
-    const response = await submit({}, { replace: true, method: 'POST' });
+    await submit({}, { replace: true, method: 'POST' });
     setIsRayspeedExist(!isRayspeedExist);
     setIsLoading(false);
   };

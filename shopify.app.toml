@@ -2,7 +2,7 @@
 
 name = "rayspeed-asia"
 client_id = "8bc2a9f35b9fcdcd0a22395ab1a9a5e3"
-application_url = "https://attractive-depth-merchandise-audi.trycloudflare.com"
+application_url = "https://trend-qualifying-stunning-nokia.trycloudflare.com"
 embedded = true
 
 [access_scopes]
@@ -11,9 +11,9 @@ scopes = "write_shipping, read_shipping"
 
 [auth]
 redirect_urls = [
-  "https://attractive-depth-merchandise-audi.trycloudflare.com/auth/callback",
-  "https://attractive-depth-merchandise-audi.trycloudflare.com/auth/shopify/callback",
-  "https://attractive-depth-merchandise-audi.trycloudflare.com/api/auth/callback"
+  "https://trend-qualifying-stunning-nokia.trycloudflare.com/auth/callback",
+  "https://trend-qualifying-stunning-nokia.trycloudflare.com/auth/shopify/callback",
+  "https://trend-qualifying-stunning-nokia.trycloudflare.com/api/auth/callback"
 ]
 
 [webhooks]
