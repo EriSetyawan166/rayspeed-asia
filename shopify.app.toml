@@ -2,7 +2,7 @@
 
 name = "rayspeed-asia"
 client_id = "8bc2a9f35b9fcdcd0a22395ab1a9a5e3"
-application_url = "https://returns-ncaa-surely-improve.trycloudflare.com"
+application_url = "https://harder-priest-meeting-want.trycloudflare.com"
 embedded = true
 
 [access_scopes]
@@ -11,9 +11,9 @@ scopes = "write_shipping, read_shipping"
 
 [auth]
 redirect_urls = [
-  "https://returns-ncaa-surely-improve.trycloudflare.com/auth/callback",
-  "https://returns-ncaa-surely-improve.trycloudflare.com/auth/shopify/callback",
-  "https://returns-ncaa-surely-improve.trycloudflare.com/api/auth/callback"
+  "https://harder-priest-meeting-want.trycloudflare.com/auth/callback",
+  "https://harder-priest-meeting-want.trycloudflare.com/auth/shopify/callback",
+  "https://harder-priest-meeting-want.trycloudflare.com/api/auth/callback"
 ]
 
 [webhooks]
