@@ -37,7 +37,7 @@ export const actionToggle = async ({ request }) => {
       });
       carrier_service.name = 'rayspeed';
       carrier_service.callback_url =
-        'https://rayspeed.com/speedship/api/shopify/pricing.php';
+        'https://rayspeed.co.id/rayspeed_shopify_shipping_rates_development/pricing.php';
       carrier_service.service_discovery = true;
       await carrier_service.save({
         update: true,
