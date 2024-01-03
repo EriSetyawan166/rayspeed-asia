@@ -2,7 +2,7 @@
 
 name = "rayspeed-asia"
 client_id = "8bc2a9f35b9fcdcd0a22395ab1a9a5e3"
-application_url = "https://dvd-ricky-dm-with.trycloudflare.com"
+application_url = "https://ballet-nowhere-october-barrel.trycloudflare.com"
 embedded = true
 
 [access_scopes]
@@ -11,9 +11,9 @@ scopes = "write_shipping, read_shipping"
 
 [auth]
 redirect_urls = [
-  "https://dvd-ricky-dm-with.trycloudflare.com/auth/callback",
-  "https://dvd-ricky-dm-with.trycloudflare.com/auth/shopify/callback",
-  "https://dvd-ricky-dm-with.trycloudflare.com/api/auth/callback"
+  "https://ballet-nowhere-october-barrel.trycloudflare.com/auth/callback",
+  "https://ballet-nowhere-october-barrel.trycloudflare.com/auth/shopify/callback",
+  "https://ballet-nowhere-october-barrel.trycloudflare.com/api/auth/callback"
 ]
 
 [webhooks]
