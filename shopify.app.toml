@@ -2,7 +2,7 @@
 
 name = "rayspeed-asia"
 client_id = "8bc2a9f35b9fcdcd0a22395ab1a9a5e3"
-application_url = "https://harder-priest-meeting-want.trycloudflare.com"
+application_url = "https://dave-declined-reader-influences.trycloudflare.com"
 embedded = true
 
 [access_scopes]
@@ -11,9 +11,9 @@ scopes = "write_shipping, read_shipping"
 
 [auth]
 redirect_urls = [
-  "https://harder-priest-meeting-want.trycloudflare.com/auth/callback",
-  "https://harder-priest-meeting-want.trycloudflare.com/auth/shopify/callback",
-  "https://harder-priest-meeting-want.trycloudflare.com/api/auth/callback"
+  "https://dave-declined-reader-influences.trycloudflare.com/auth/callback",
+  "https://dave-declined-reader-influences.trycloudflare.com/auth/shopify/callback",
+  "https://dave-declined-reader-influences.trycloudflare.com/api/auth/callback"
 ]
 
 [webhooks]
