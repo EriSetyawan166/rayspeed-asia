@@ -14,7 +14,7 @@ export default async function handleRequest(
   remixContext
 ) {
   addDocumentResponseHeaders(request, responseHeaders);
-  const callbackName = isbot(request.headers.get("user-agent"))
+  const callbackName = isbot(request.headers.get("user-agent") || "")
     ? "onAllReady"
     : "onShellReady";
 
